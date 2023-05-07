@@ -3,9 +3,10 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://www.gisketch.com/",
+  "homepage": "https://WaleedMuslem.github.io/Portfolio",
   "scripts": {
     "dev": "vite",
+    "deploy":"gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview"
   },
