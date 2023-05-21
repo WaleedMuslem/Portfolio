@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence} from "framer-motion"
 import '../styles/Nav.css'
 import { AiOutlineClose, AiOutlineBars, } from 'react-icons/ai'
+import { Link } from 'react-router-dom';
 
 const status = "Currently studying at University of Southern Mindanao as an EcE student."
 
@@ -78,8 +79,8 @@ function Nav(props) {
                     <AiOutlineClose onClick={()=>{setNavOpen(false)}}/>
             </motion.div>
             {navs.map((nav, index) => (
+              <Link to={nav.link}>
                 <motion.a
-                    href={nav.link}
                     key={"nav-"+index}
                     style={
                         {
@@ -101,6 +102,7 @@ function Nav(props) {
                     >
                     {nav.name}
                 </motion.a>
+                </Link>
             ))}
             
         </motion.div>
