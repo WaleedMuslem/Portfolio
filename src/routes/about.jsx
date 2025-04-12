@@ -33,8 +33,7 @@ const Paragraph = ({ paragraphState, typing, setTyping }) => {
             {typing ? (
               <TypeAnimation
                 sequence={[
-                  ` Hi there! My name is Waleed I'm currently a second-year CS student at Eszterházy Károly Catholic University, Hungary.
-                  and I'm passionate about using technology to solve real life problem.`,
+                  ` Hi, I'm Waleed, a Full-Stack Developer passionate about AI and LLMs, with experience in Python, JavaScript, GoLang and OOP principles.`,
                   750,
                   () => {
                     setTyping(false);
@@ -48,8 +47,7 @@ const Paragraph = ({ paragraphState, typing, setTyping }) => {
               // Hi there! My name is [Your Name], and I'm currently a second-year student at Eszterhazy Karoly Catholic University in Hungary. 
               //I'm pursuing a degree in [Your Major], and I'm passionate about using technology to solve real life problems
               <motion.span animate={{ scale: typing ? 1.1 : 1 }}>
-                Hi there! My name is <b>Waleed</b> I'm currently a second-year CS student at Eszterházy Károly Catholic University, Hungary.
-                and I'm<b> passionate</b> about using technology to solve real life problem.
+                Hi, I'm <b>Waleed</b>, a Full-Stack Developer <b>passionate</b> about AI and LLMs, with experience in Python, JavaScript, GoLang and OOP principles.
               </motion.span>
             )}
           </motion.p>
@@ -60,9 +58,7 @@ const Paragraph = ({ paragraphState, typing, setTyping }) => {
             {typing ? (
               <TypeAnimation
                 sequence={[
-                  `In high school, I tried developing games by watching tutorials on YouTube,
-                  and I fell in love with programming. Despite pursuing a degree in Computer Science in college, I spent most of my time learning programming on my own through
-                  online resources.`,
+                  `My journey began in high school building games from YouTube tutorials, and since then, I've developed scalable apps like a food delivery platform and an e-learning system.`,
                   750,
                   () => {
                     setTyping(false);
@@ -77,9 +73,7 @@ const Paragraph = ({ paragraphState, typing, setTyping }) => {
               //I'm also adaptable and flexible, able to pivot quickly when requirements change or unexpected challenges arise. I have a strong grasp of the fundamentals of software development and a solid understanding of OOP principles, 
               //I'm able to build scalable, reliable systems using C# and Java. I also have experience working with popular web development frameworks like React and Express.js. I also possess a strong knowledge of databases and database management systems.
               <motion.span animate={{ scale: typing ? 1.1 : 1 }}>
-                In high school, I tried developing games by watching tutorials on YouTube,
-                and I fell in love with <b>programming</b>. Despite pursuing a degree in Computer Science in college, I spent most of my time <b style={{ color: '#98c379' }}>learning</b> programming on my own through
-                online resources.
+                My journey began in high school <b>building</b> games from YouTube tutorials, and since then, I've <b style={{ color: '#98c379' }}>developed</b> scalable apps like a food delivery platform and an e-learning system.
               </motion.span>
             )}
           </motion.p>
@@ -90,8 +84,7 @@ const Paragraph = ({ paragraphState, typing, setTyping }) => {
             {typing ? (
               <TypeAnimation
                 sequence={[
-                  `I have a strong grasp of the fundamentals of software development and a solid understanding of OOP principles, 
-                  I'm able to build scalable, reliable systems using C# and Java.`,
+                  `When I'm not coding, you'll find me playing football, hitting the gym, or diving into a good book.`,
                   750,
                   () => {
                     setTyping(false);
@@ -103,8 +96,7 @@ const Paragraph = ({ paragraphState, typing, setTyping }) => {
               />
             ) : ( 
               <motion.span animate={{ scale: typing ? 1.1 : 1 }}>
-                 I have a strong grasp of the <b>fundamentals of software</b> development and a solid understanding of OOP principles, 
-                 I'm able to build scalable, reliable <b>systems</b> using C# and Java.
+                 When I'm not <b>coding</b>, you'll find me playing football, hitting the gym, or diving into a good <b>book</b>.
               </motion.span>
             )}
           </motion.p>
@@ -115,8 +107,7 @@ const Paragraph = ({ paragraphState, typing, setTyping }) => {
             {typing ? (
               <TypeAnimation
                 sequence={[
-                  `I'm excited to share some of my projects with you, and I hope you find them interesting and informative.
-                  Thank you for taking the time to visit my portfolio, and please don't hesitate to contact me if you have any questions or feedback.`,
+                  `Let's build something amazing together — reach out via email or LinkedIn.`,
                   750,
                   () => {
                     setTyping(false);
@@ -128,8 +119,7 @@ const Paragraph = ({ paragraphState, typing, setTyping }) => {
               />
             ) : ( 
               <motion.span animate={{ scale: typing ? 1.1 : 1 }}>
-                I'm excited to share some of my <b>projects</b> with you, and I hope you find them interesting and informative.
-                Thank you for taking the time to visit my <b>portfolio</b>, and please don't hesitate to contact me if you have any questions or feedback.
+                Let's build something <b>amazing</b> together — reach out via email or LinkedIn
               </motion.span>
             )}
           </motion.p>

@@ -17,6 +17,8 @@ import java from '../assets/images/java.png';
 import pandas from '../assets/images/pandas_white.svg';
 import matplotlib from '../assets/images/matplotlibsmall.svg';
 import numpy from '../assets/images/numpy.svg';
+import golang from '../assets/images/Go-Logo.png';
+
 
 const skills = [
   { 
@@ -32,7 +34,7 @@ const skills = [
       {
         image: express,
         name: 'ExpressJS',
-        level: 6,
+        level: 7,
         description: 'working on it'
       },
       {
@@ -48,15 +50,21 @@ const skills = [
     comment: 'click anywhere to continue',
     data: [
       {
+        image: golang,
+        name: 'Golang',
+        level: 7,
+        description: 'quite good',
+      },
+      {
         image: postman,
         name: 'POSTMAN',
-        level: 6,
+        level: 8,
         description: 'quite good',
       },
       {
         image: phpimg,
         name: 'PHP',
-        level: 3,
+        level: 4,
         description: 'getting the hang of it'
       },
     ]
