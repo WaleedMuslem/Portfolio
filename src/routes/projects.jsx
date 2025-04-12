@@ -8,30 +8,30 @@ import { RandomReveal } from 'react-random-reveal'
 
 import React, { useState, useRef, useEffect } from 'react';
 
-import ScholarshipFinder from '../assets/project_img/ScholarshipFinder.jpg';
-import bookshop from '../assets/project_img/bookshop.jpg';
-import chatbot from '../assets/project_img/chatbot.jpg';
+// import ScholarshipFinder from '../assets/project_img/ScholarshipFinder.jpg';
+// import bookshop from '../assets/project_img/bookshop.jpg';
+// import chatbot from '../assets/project_img/chatbot.jpg';
 
 const projects = [
   {
     title: 'CURRENT',
     projects: [
       {
-        img: ScholarshipFinder,
+        img: '../assets/project_img/ScholarshipFinder.jpg',
         title: 'ScholarshipFinder',
         subtitle: '',
         link: "https://github.com/Yslamguly/ScholarshipFinder",
         description: "ScholarshipFinder is a website that helps students search and find scholarships that match their eligibility criteria. The website aims to simplify the scholarship search process and provide comprehensive information about available scholarships to support students in pursuing their educational goal. The website is built using a combination of React.js for the frontend and Express.js for the backend"
       },
       {
-        img: bookshop,
+        img: '../assets/project_img/ScholarshipFinder.jpg',
         title: 'Book Shop',
         subtitle: '',
         link: "https://github.com/WaleedMuslem/BookShop",
         description: "Book Shop project is a web application developed using PHP programming language. It aims to provide an online platform for users to browse, search, and purchase books. The project incorporates various features and functionalities to enhance the user experience and facilitate efficient book transactions."
       },
       {
-        img: chatbot,
+        img: '../assets/project_img/ScholarshipFinder.jpg',
         title: 'Chat Bot',
         subtitle: '',
         link: "https://github.com/WaleedMuslem/ChatBot",
