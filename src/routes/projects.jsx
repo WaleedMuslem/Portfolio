@@ -12,7 +12,9 @@ import React, { useState, useRef, useEffect } from 'react';
 // import bookshop from '../assets/images/bookshop.jpg';
 // import chatbot from '../assets/images/chatbot.jpg';
 
-import reactimg from '../assets/images/reactjs.png';
+import fdimg from '../assets/images/fooddeliverly.png';
+import aiimg from '../assets/images/ai.png';
+import schimg from '../assets/images/ScholarshipFinder.png';
 
 
 const projects = [
@@ -20,25 +22,25 @@ const projects = [
     title: 'CURRENT',
     projects: [
       {
-        img: reactimg,
+        img: fdimg,
+        title: 'Food Delivery',
+        subtitle: '',
+        link: "https://github.com/WaleedMuslem/food_delivery",
+        description: "A full-stack food delivery app built with Vue.js, Golang, and PostgreSQL. Users can browse menus, manage carts, place orders, and save addresses. Features include secure auth, responsive design with Tailwind CSS, and RESTful APIs."
+      },
+      {
+        img: aiimg,
+        title: 'AI Research Assistant',
+        subtitle: '',
+        link: "https://github.com/WaleedMuslem/ai_research_assistant",
+        description: "A document analysis tool built with Streamlit and OpenAI's local API via Ollama. It supports PDF, DOCX, and TXT files, providing intelligent answers to user queries. The assistant extracts key findings, generates summaries, and identifies limitations across multiple research documents using LLMs like DeepSeek. Ideal for academic workflows and literature reviews."
+      },
+      {
+        img: schimg,
         title: 'ScholarshipFinder',
         subtitle: '',
         link: "https://github.com/Yslamguly/ScholarshipFinder",
         description: "ScholarshipFinder is a website that helps students search and find scholarships that match their eligibility criteria. The website aims to simplify the scholarship search process and provide comprehensive information about available scholarships to support students in pursuing their educational goal. The website is built using a combination of React.js for the frontend and Express.js for the backend"
-      },
-      {
-        img: reactimg,
-        title: 'Book Shop',
-        subtitle: '',
-        link: "https://github.com/WaleedMuslem/BookShop",
-        description: "Book Shop project is a web application developed using PHP programming language. It aims to provide an online platform for users to browse, search, and purchase books. The project incorporates various features and functionalities to enhance the user experience and facilitate efficient book transactions."
-      },
-      {
-        img: reactimg,
-        title: 'Chat Bot',
-        subtitle: '',
-        link: "https://github.com/WaleedMuslem/ChatBot",
-        description: "This is a simple website that showcases the capabilities of the GPT-3.5-Turbo model API. The website is built with a backend using Express.js and a frontend using React."
       },
     ]
   },
